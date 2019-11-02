@@ -11,11 +11,16 @@ http://localhost:3001/
 
 
 ### docker 
+```
 docker stop $(docker ps -aq)    
 docker rm $(docker ps -aq)    
 docker rmi $(docker images -q)   
+```
 
-
+#### accesss container
+```
+docker exec -it <container ID> bash
+```
 
 ### referene
 https://nodejs.org/de/docs/guides/nodejs-docker-webapp/    
