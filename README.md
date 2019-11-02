@@ -19,7 +19,8 @@ docker rmi $(docker images -q)
 
 #### accesss container
 ```
-docker exec -it <container ID> bash
+docker exec -ti cc55da85b915 /bin/sh    
+docker exec -ti cc55da85b915 bash
 ```
 
 ### referene
