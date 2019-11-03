@@ -2,8 +2,8 @@
 
 ### run
 docker build -t test:dev .   
-docker run -v ~/code/test:/app -p 3001:3000 --rm test:dev     
-docker run -v ~/code/test:/app -v /app/node_modules -p 3001:3000 --rm test:dev
+docker run -v ~/code/test:/test -p 3001:3000 --rm test:dev     
+docker run -v ~/code/test:/test -v /app/node_modules -p 3001:3000 --rm test:dev
 
 
 ### open link 
